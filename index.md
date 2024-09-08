@@ -4,7 +4,7 @@ This is my home page! My name is Brandon Tai-Ho Kim and I am a student at [Cal S
 
 ## Computer Science Projects
 
-My GitHub page is http://github.com/brandontkim22.
+My GitHub page is [http://github.com/brandontkim22](http://github.com/brandontkim22).
 
 ### CPSC 120
 
