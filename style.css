@@ -259,39 +259,59 @@ body {
 
 /* Dedicated Project Template */
 .project-template {
-    text-align: center;
-    margin: 4rem auto;
-    padding: 0 2rem;
-    max-width: 1000px;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  max-width: 1000px;
 }
 
 .project-template img {
-    width: 75%;
-    height: auto;
-    margin: 2rem auto;
+  width: 75%;
+  height: auto;
+  margin: 2rem auto;
 }
 
 .project-description {
-    padding: 2rem;
-    background-color: #bbdefb;
-    border-radius: 10px;
-    margin: 2rem auto;
-    text-align: center;
+  padding: 2rem;
+  background-color: #bbdefb;
+  border-radius: 10px;
+  margin: 2rem auto;
+  text-align: center;
 }
 
 .project-description h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .project-description p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .project-description img {
-    width: 75%;
-    height: auto;
-    margin: 1rem auto;
-    border: 10px #333;
+  width: 75%;
+  height: auto;
+  margin: 1rem auto;
+  border: 10px #333;
+}
+
+.back-button-container {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00aab8;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #008c98;
 }
 
 /* SKILLS Page */
@@ -438,7 +458,7 @@ body {
   }
 }
 
-/* Phone screen */
+/* Phone/iPad screens */
 @media (max-width: 768px) {
   /* Nav bar */
   .nav-links {
@@ -521,5 +541,11 @@ body {
     width: 75%;
     height: auto;
     margin: 1rem auto;
+  }
+
+  /* Contact Page */
+  .contact-container {
+    padding: 1rem;
+    width: 90%;
   }
 }
